@@ -1,7 +1,3 @@
-***ANDROID BATTERY RECEIVER***
-
-MAIN ACT
-
 package com.example.batteryreciever;
 
 import androidx.appcompat.app.AppCompatActivity;
