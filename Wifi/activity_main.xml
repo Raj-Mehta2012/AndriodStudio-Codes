@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="173dp"
+        android:layout_height="59dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="211dp"
+        android:text="Enable Wifi" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="168dp"
+        android:layout_height="67dp"
+        android:layout_below="@+id/button1"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="90dp"
+        android:text="Disable Wifi" />
+
+</RelativeLayout>
+
+
+
